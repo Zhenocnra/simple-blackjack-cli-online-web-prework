@@ -7,7 +7,7 @@ def deal_card
 end
 
 def display_card_total(card_total)
-  puts "Your cards add up to #{card total}"
+  puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
@@ -56,12 +56,6 @@ end
 #####################################################
 
 def runner
-  welcome
-  card_total = initial_round
-  until card_total > 21
-    card_total = hit?(card_total)
-    display_card_total(card_total)
-  end
-end_game(card_total)
+
 end
     
