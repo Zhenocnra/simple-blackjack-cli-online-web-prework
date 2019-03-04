@@ -40,8 +40,12 @@ def hit?
   end
 end
 
+#I don't see invalid_command in the test suite though.
+
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command"
+  prompt_user
+  get_user_input
 end
 
 #####################################################
